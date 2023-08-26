@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=League+Spartan:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Slabo';
+}
+
+header a {
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+}
+
+.navegacion a {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: 25px;
+}
+
+.seccion {
+
+    height: 100vh;
+    background-image: url("./fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+}
+
+.back{
+    height: inherit;
+    background-color: rgba(0,0,0, .4);
+    width: 100%;
+}
+
+.navbar a{
+    font-family: 'Lucida Sans';
+}
+.seccion h1 {
+    padding: 50px;
+    font-size: 70px;
+    opacity: none;
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Dancing Script', cursive; */
+    font-weight: 800;
+    margin-left: 180px;
+    display: block;
+}
+
+.navegacion a{
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.navegacion a:hover{
+    border: thin solid white;
+    background-color: transparent;
+    color: white;
+}
+.seccion p {
+    color: white;
+    font-size: 30px;
+}
+
+.grupo_testimonio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.grupo_testimonio input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.grupo_testimonio i {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgb(187, 187, 187);
+}
+
+.grupo_testimonio p {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgb(187, 187, 187);
+}
+
+.responder {
+    display: flex;
+
+}
+
+.responder a {
+    text-align: end;
+}
+
+.acerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.acerca img {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin: 10px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    color: grey;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    width: 220px;
+    margin: 5px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding: 10px;
+}
+
+.galeria_fotos {
+    background-image: url("./galeria.jpeg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.galeria_fotos h1 {
+    padding: 15px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: 0;
+    }
+
+    .acerca {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .acerca img {
+        width: 100%;
+        height: 80vh;
+        border-radius: 0px;
+        margin: 10px;
+    }
+
+    .mapa {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen img {
+        width: 100%;
+    }
+}
